@@ -20,7 +20,7 @@ const Users = () => {
       await axios.delete(`/api/users/${userId}`);
       setUsers(users.filter(user => user._id !== userId));
     } catch (error) {
-      console.error('Error deleting user:', error);
+      console.error('Error deleting user: ', error);
     }
   };
 
