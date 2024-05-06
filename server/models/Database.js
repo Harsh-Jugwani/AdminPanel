@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose= require('mongoose');
 
 const databaseSchema = new mongoose.Schema({
   name: {
